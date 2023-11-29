@@ -1,0 +1,31 @@
+body{
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 1px 2px black;
+}
+
+#submitbtn, #birthdate{
+    box-shadow: 3px 3px 3px;
+    border-radius: 12px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(250, 68, 68);
+    color: white;
+    text-align: center;
+}
